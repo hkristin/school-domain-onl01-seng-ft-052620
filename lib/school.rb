@@ -7,9 +7,11 @@ def initialize(name)
 end
   
 def add_student(name,grade)
-  
-  self.roster[grade] = [name]
-  
+  if self.roster.include?(grade)
+      self.roster[grade]
+ else 
+      self.roster[grade] = [name]
+  end
 end
 
 def grade(grade)
