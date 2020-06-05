@@ -20,8 +20,9 @@ end
 
 def sort
   roster.each do |grade|
-    grade[1].sort
+    grade[0].sort
   end
+
 roster
 end
 
