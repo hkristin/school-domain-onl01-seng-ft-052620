@@ -7,7 +7,7 @@ def initialize(name)
 end
   
 def add_student(name,grade)
-  
+  @name
 end
 
 def grade(grade)
